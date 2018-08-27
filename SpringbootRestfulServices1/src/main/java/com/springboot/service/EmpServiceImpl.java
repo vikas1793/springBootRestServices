@@ -33,6 +33,13 @@ public class EmpServiceImpl implements EmpService
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void deleteEmployee(int empid) {
+		 
+      empRepository.deleteById(empid);
+		
+	}
 	
 
 }
